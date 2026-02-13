@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kimi love letter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Advanced particle system -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    <div class="particles" id="particlesContainer"></div>
+    <div class="floating-hearts-layer" id="floatingHeartsLayer"></div>
+
+    <!-- Main envelope container -->
+    <div class="container">
+        <div class="envelope-wrapper" 
+             id="envelopeWrapper" 
+             role="button" 
+             tabindex="0"
+             aria-label="Click or press Enter to open your Valentine's letter">
+            <div class="envelope">
+                <div class="envelope-body"></div>
+                <div class="envelope-flap"></div>
+                <div class="wax-seal"></div>
+            </div>
+            <div class="instruction">click or im ugly</div>
+        </div>
+    </div>
+
+    <!-- Premium letter -->
+    <div class="letter" id="letter" role="article" aria-label="Valentine's love letter">
+        <div class="letter-header">My Dearest Love</div>
+        <div class="letter-content">
+            <p>I just want you to know <span class="highlight">how much you mean to me.</span> This past year with you i loved every second of it, and you've become such a <span class="highlight">big part of my life.</span> I love you so much, and I'm so grateful for your <span class="highlight">caring nature</span> and the patience you always show me.</p>
+            
+            <p>Since the day we met, we've grown so much together, and I feel <span class="highlight">lucky every day</span> to have you by my side. I'm so glad you're my <span class="highlight">first Valentine</span> it makes this day even more special.</p>
+            
+            <p>Thank you for being you, for <span class="highlight">loving me</span>, and for making my life brighter in every way. I can't wait for all the days and memories we create, and that's ahead of us.</p>
+        </div>
+        <div class="letter-signature">Forever Yours ♥</div>
+        
+        <!-- Premium Spotify player -->
+        <div class="spotify-container">
+            <div class="spotify-label">and remember kids faye saves</div>
+            <div class="spotify-player">
+                <iframe id="spotifyIframe"
+                        style="border-radius:14px" 
+                        src="https://open.spotify.com/embed/track/5tuBenbZ1Or9xENTyOKoGC?utm_source=generator" 
+                        width="100%" 
+                        height="152" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
